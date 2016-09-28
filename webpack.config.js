@@ -30,7 +30,8 @@ module.exports = {
       CarForm: 'app/components/CarForm.jsx',
       CarMessage: 'app/components/CarMessage.jsx',
       NewArray: 'app/components/NewArray.jsx',
-      Car: 'app/components/Car.jsx'
+      Car: 'app/components/Car.jsx',
+      Gallery: 'app/components/Gallery.jsx'
       
     },
     extensions: ['', '.js', '.jsx']

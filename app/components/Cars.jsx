@@ -41,7 +41,7 @@ renderCarByYear: function(key){
 
     return (
       <div>
-        <h1 className="text-center page-title">Best of The Best</h1>
+        <h1 className="text-center page-title">Best of The Year</h1>
         <CarForm renderCarByYear={this.renderCarByYear} cars={this.state.cars}/>
         <span className="car-display">{rendercar()}</span>
       </div>

@@ -23,7 +23,7 @@ var CarForm = React.createClass({
 	 		<div>
 	 			<form ref="carform" onSubmit={this.onFormSubmit}>
           <input type="search"  ref="year" placeholder="Search a year (1949-2016)" />
-          <button className="button expanded hollow">American Muscle</button>
+          <button className="button-black expanded hollow">American Muscle</button>
         </form>
         	<div>
         	</div>

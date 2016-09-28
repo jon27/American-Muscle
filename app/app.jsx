@@ -8,7 +8,7 @@ var CarForm = require('CarForm');
 var ErrorModal = require('ErrorModal');
 var NewArray = require('NewArray');
 var Car = require('Car');
-
+var Gallery = require("Gallery");
 
 
 // Load foundation
@@ -23,6 +23,7 @@ ReactDOM.render(
   <Router history={hashHistory}>
   	<Route path="/" component={Main}> 		
   		<IndexRoute component={Cars} />
+      <Route path="/gallery" component={Gallery} />
   	</Route>
   </Router>,
   document.getElementById('app')

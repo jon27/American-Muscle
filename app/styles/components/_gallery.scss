@@ -1,0 +1,84 @@
+
+.footer {
+    color: #31363d;
+    font-size: 10px;
+    height: 70px;
+    line-height: 70px;
+    padding-right: 40px;
+    text-align: right;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+}
+
+.header {
+  height: 140px;
+  text-align: center;
+}
+
+.header h1 {
+  color: #31363d;
+  font-size: 32px;
+  margin: 0;
+  text-align: center;
+  padding-top:50px;
+  max-width: 850px;
+
+}
+.car-display-gallery {
+  // align-items: center;
+
+  margin: auto;
+  width: 100%
+}
+
+@media (min-width: 1200px){
+.container {
+    width: 1170px;
+}
+  .row {
+    margin-top: 20px;
+  }
+  .img-responsive {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 992px){
+  .container {
+    width: 970px;
+}
+  .row {
+    margin-top: 20px;
+  }
+  .img-responsive {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px){
+  .container {
+    width: 750px;
+}
+  .row {
+    margin-top: 20px;
+  }
+  .img-responsive {
+    margin-bottom: 20px;
+  }
+}
+
+.container {
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+
+}
+
+@media (max-width: 500px) {
+  .row {
+    margin-top: 20px;
+  }
+  .img-responsive {
+    margin-bottom: 20px;
+  }
+}

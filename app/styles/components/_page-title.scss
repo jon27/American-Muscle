@@ -1,6 +1,12 @@
 .page-title{
   margin: 2rem 0;
   text-align: center;
-  color: $blue;
+  color: $nav-background;
   font-weight: bold;
 }
+    .button-black{
+      padding: 0.75rem 3rem;
+      border: 1px solid $nav-background;
+      color: $nav-background;
+      width: 100%;
+    }

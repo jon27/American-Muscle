@@ -141,34 +141,34 @@ module.exports = [
     desc : "The ",descTwo : " came with 237hp and 305lbs of torque. Which allowed this beast to accelerate 0-60 mph in 6.3s, and have a 1/4 mile time of 14.5 s. The " , descThree : " has a  top speed of 152mph putting the ", descFour : " in the top."
     },
   { year : 1976,
-    name : 'Market Segment',
+    name : 'Market Segment Decline',
     image : '',
-    desc : ''
+    desc : 'The muscle car market segment was in high gear until shifting social attitudes, crippling insurance rates, the Clean Air Act and the fuel crisis removed the cars from the market in the early 1970s.', descTwo: ' The OPEC oil embargo led to price controls and gasoline rationing, as well as higher prices. Muscle cars quickly became unaffordable and impractical for many people. The ', descThree: ' also caused automobile insurance industry to levy surcharges on all high-powered models, an added cost that put many muscle cars out of reach of their intended buyers. Simultaneously, The', descFour: 'caused many efforts to combat air pollution and emissions control.',
     },
   { year : 1977,
     name : 'Market Segment',
     image : '',
-    desc : ''
+    desc : 'The muscle car market segment was in high gear until shifting social attitudes, crippling insurance rates, the Clean Air Act and the fuel crisis removed the cars from the market in the early 1970s.', descTwo: ' The OPEC oil embargo led to price controls and gasoline rationing, as well as higher prices. Muscle cars quickly became unaffordable and impractical for many people. The ', descThree: ' also caused automobile insurance industry to levy surcharges on all high-powered models, an added cost that put many muscle cars out of reach of their intended buyers. Simultaneously, The', descFour: 'caused many efforts to combat air pollution and emissions control.',
     },
   { year : 1978,
     name : 'Market Segment',
     image : '',
-    desc : ''
+    desc : 'The muscle car market segment was in high gear until shifting social attitudes, crippling insurance rates, the Clean Air Act and the fuel crisis removed the cars from the market in the early 1970s.', descTwo: ' The OPEC oil embargo led to price controls and gasoline rationing, as well as higher prices. Muscle cars quickly became unaffordable and impractical for many people. The ', descThree: ' also caused automobile insurance industry to levy surcharges on all high-powered models, an added cost that put many muscle cars out of reach of their intended buyers. Simultaneously, The', descFour: 'caused many efforts to combat air pollution and emissions control.',
     },
   { year : 1979,
     name : 'Market Segment',
     image : '',
-    desc : ''
+    desc : 'The muscle car market segment was in high gear until shifting social attitudes, crippling insurance rates, the Clean Air Act and the fuel crisis removed the cars from the market in the early 1970s.', descTwo: ' The OPEC oil embargo led to price controls and gasoline rationing, as well as higher prices. Muscle cars quickly became unaffordable and impractical for many people. The ', descThree: ' also caused automobile insurance industry to levy surcharges on all high-powered models, an added cost that put many muscle cars out of reach of their intended buyers. Simultaneously, The', descFour: 'caused many efforts to combat air pollution and emissions control.',
     },
   { year : 1980,
     name : 'Market Segment',
     image : '',
-    desc : ''
+    desc : 'The muscle car market segment was in high gear until shifting social attitudes, crippling insurance rates, the Clean Air Act and the fuel crisis removed the cars from the market in the early 1970s.', descTwo: ' The OPEC oil embargo led to price controls and gasoline rationing, as well as higher prices. Muscle cars quickly became unaffordable and impractical for many people. The ', descThree: ' also caused automobile insurance industry to levy surcharges on all high-powered models, an added cost that put many muscle cars out of reach of their intended buyers. Simultaneously, The', descFour: 'caused many efforts to combat air pollution and emissions control.',
     },
   { year : 1981,
     name : 'Market Segment',
     image : '',
-    desc : ''
+    desc : 'The muscle car market segment was in high gear until shifting social attitudes, crippling insurance rates, the Clean Air Act and the fuel crisis removed the cars from the market in the early 1970s.', descTwo: ' The OPEC oil embargo led to price controls and gasoline rationing, as well as higher prices. Muscle cars quickly became unaffordable and impractical for many people. The ', descThree: ' also caused automobile insurance industry to levy surcharges on all high-powered models, an added cost that put many muscle cars out of reach of their intended buyers. Simultaneously, The', descFour: 'caused many efforts to combat air pollution and emissions control.',
     },
   { year : 1982,
     name : 'Pontiac Firebird Trans Am',
