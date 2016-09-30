@@ -1,0 +1,73 @@
+.div-display {
+  padding: 0px;
+  background-color: $glory-blue;
+  position:absolute;
+  left: 0px;
+  right: 0px;
+  height: 45%;
+  display: block;
+
+}
+.font-color-white {
+  color: white;
+}
+
+.left-img {
+  float: left;
+  width: 40%;
+  margin: auto;
+  height: 100%;
+}
+
+.right-text {
+  float: left;
+  width: 60%;
+  position: relative;
+  height: 100%;
+}
+
+.right-text p {
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right: 5%
+}
+
+.left-text{
+  float: left;
+  width: 40%;
+  margin: auto;
+  height: 100%
+}
+
+.right-img{
+  float: left;
+  width: 40%;
+  margin: auto;
+  height: 100%;
+}
+
+.left {
+  float: left;
+  background-color:#123;
+}
+.right {
+  float: right;
+  background-color: #468531
+}
+
+.image-hellcat {
+  background-image: url(https://lh3.googleusercontent.com/LmC8WZdkJsWTp6z7mtcXBdQhLK-khXJ-p9xjx7svKCVEWKymYqtqdc9bFG5C8hd2cTzbB6WpRqdc_GvhMsKZwNpvQHwO_PLdKz8AEsgZ_2xZ_C3o9MWkyIkzq5DJ03I4lMDyfMD0xkN70PtztWyCIKvRL-3aBmRdrUN4cpxtc7K1Xc62T7UP3E-1d9DvcSP99a29AgPKOmyFaDTcHq7EVi1Oif42XZu94aHZDviAf2rgK26vaTr5nITsYOHO8x29NsriCTh1rVBLJ6AKyvQuUQASbN8TwQ_VnAvMcICmgrsdiVoaWwnj00odF_WYg6E_RxoopwH_H36omzZc1UwvVy6CbkI-1WLSWSs7SoLmEhUxM8UZ5YGBNncnv_Dl61U7kP4OGpqpF0Mm3y6vNO-ll7tvdLO7m3I8HDhEU0PcSvX4Jw8hOSYoqan2bPxVclO4bJx5PE1ufULi0AtaqVTPrQ0odT2Thj7stnu0XYSyweLynVc5rPhGnq66kvgIHhXd53KTUwiC5i_s9matGagQaKlv1INb_zt-otgRJ8jot7I6s5nQqn09-rItccfkh0GnQBTG8yW8fGFozU2ixW77V86i2Tgn1HDvnU5f4d1okJSv54af=s600-no);
+  background-size: 100% 100%;
+}
+
+.thumbnail {
+
+  width: 650px;
+  height: 100%;
+  background-image: url(https://lh3.googleusercontent.com/LmC8WZdkJsWTp6z7mtcXBdQhLK-khXJ-p9xjx7svKCVEWKymYqtqdc9bFG5C8hd2cTzbB6WpRqdc_GvhMsKZwNpvQHwO_PLdKz8AEsgZ_2xZ_C3o9MWkyIkzq5DJ03I4lMDyfMD0xkN70PtztWyCIKvRL-3aBmRdrUN4cpxtc7K1Xc62T7UP3E-1d9DvcSP99a29AgPKOmyFaDTcHq7EVi1Oif42XZu94aHZDviAf2rgK26vaTr5nITsYOHO8x29NsriCTh1rVBLJ6AKyvQuUQASbN8TwQ_VnAvMcICmgrsdiVoaWwnj00odF_WYg6E_RxoopwH_H36omzZc1UwvVy6CbkI-1WLSWSs7SoLmEhUxM8UZ5YGBNncnv_Dl61U7kP4OGpqpF0Mm3y6vNO-ll7tvdLO7m3I8HDhEU0PcSvX4Jw8hOSYoqan2bPxVclO4bJx5PE1ufULi0AtaqVTPrQ0odT2Thj7stnu0XYSyweLynVc5rPhGnq66kvgIHhXd53KTUwiC5i_s9matGagQaKlv1INb_zt-otgRJ8jot7I6s5nQqn09-rItccfkh0GnQBTG8yW8fGFozU2ixW77V86i2Tgn1HDvnU5f4d1okJSv54af=s600-no);
+  background-size: 100% 100%;
+
+  .thumbnail h1{
+      text-align: center;
+  }
+}

@@ -26,12 +26,11 @@ module.exports = {
       ErrorModal: 'app/components/ErrorModal.jsx',
       applicationStyles: 'app/styles/app.scss',
       Cars: 'app/components/Cars.jsx',
-      CarInfo: 'app/components/CarInfo.jsx',
       CarForm: 'app/components/CarForm.jsx',
-      CarMessage: 'app/components/CarMessage.jsx',
       NewArray: 'app/components/NewArray.jsx',
       Car: 'app/components/Car.jsx',
-      Gallery: 'app/components/Gallery.jsx'
+      Gallery: 'app/components/Gallery.jsx',
+      ModernCars: 'app/components/ModernCars.jsx'
       
     },
     extensions: ['', '.js', '.jsx']

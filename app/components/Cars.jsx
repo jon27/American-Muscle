@@ -3,7 +3,6 @@ var Main = require('Main');
 var Nav  = require('Nav');
 var CarForm = require('CarForm');
 var ErrorModal = require('ErrorModal');
-var CarInfo = require('CarInfo');
 var Car = require('Car');
 var NewArray = require('NewArray');
 
@@ -36,12 +35,14 @@ renderCarByYear: function(key){
     var rendercar = () => {
       if(this.state.cars != ""){
         return <Car details={this.state.cars} />
+      }else{
+        return  <h3 className="text-center page-title">Search a Year and see which Muscle Car came out on top!</h3>
       }
     };
 
     return (
       <div>
-        <h1 className="text-center page-title">Best of The Year</h1>
+        <h1 className="text-center page-title">Best of Each Year</h1>
         <CarForm renderCarByYear={this.renderCarByYear} cars={this.state.cars}/>
         <span className="car-display">{rendercar()}</span>
       </div>

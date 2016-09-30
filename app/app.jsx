@@ -3,13 +3,12 @@ var ReactDOM = require('react-dom');
 var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 var Main = require('Main');
 var Cars = require('Cars');
-var CarMessage = require('CarMessage');
 var CarForm = require('CarForm');
 var ErrorModal = require('ErrorModal');
 var NewArray = require('NewArray');
 var Car = require('Car');
 var Gallery = require("Gallery");
-
+var ModernCars = require('ModernCars');
 
 // Load foundation
 require('style!css!foundation-sites/dist/foundation.min.css');
@@ -22,8 +21,9 @@ require('style!css!sass!applicationStyles')
 ReactDOM.render(
   <Router history={hashHistory}>
   	<Route path="/" component={Main}> 		
-  		<IndexRoute component={Cars} />
+  		<IndexRoute component={ModernCars} />
       <Route path="/gallery" component={Gallery} />
+      <Route path="/search" component={Cars} />
   	</Route>
   </Router>,
   document.getElementById('app')

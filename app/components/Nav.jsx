@@ -7,14 +7,17 @@ var Nav = React.createClass({
 			<div className="top-bar">
 				<div className="top-bar-left align-vertical">
 					<ul className="menu">
-						<li className="menu-text">American Muscle Cars</li>
+						<li className="font-bold"><span className="red-text">American</span> <span className="white-text">Muscle</span> <span className="blue-text">Cars</span></li>
             <li>
               <IndexLink to="/" className="menu-text" activeClassName="active" activeStyle={{fontWeight: 'bold'}}><span>Home</span></IndexLink>
             </li>
             <li>
               <Link to="/gallery" className="menu-text" activeClassName="active"  activeStyle={{fontWeight: 'bold'}}>Gallery</Link>
             </li>
-					</ul>
+            <li>
+              <Link to="/search" className="menu-text" activeClassName="active"  activeStyle={{fontWeight: 'bold'}}>Take a look at history</Link>
+            </li>					
+          </ul>
 					</div>
 					<div className="top-bar-right align-vertical">
 					<div className="ssk-group ssk-count">
