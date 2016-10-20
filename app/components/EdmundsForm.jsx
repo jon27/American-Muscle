@@ -72,10 +72,6 @@ var EdmundsForm = React.createClass({
           <input className="edmundsFormInput" placeholder="Make" isRequired="required" ref="make" />
           <input className="edmundsFormInput" placeholder="Model" isRequired="required" ref="model" />
           <input className="edmundsFormInput" placeholder="Year" isRequired="required" ref="year" />
-          <select name="condition" ref="condition">
-            <option value="new">New</option>
-            <option value="used">Used</option>
-          </select>
           <button>Submit</button>
         </form>
         <div>
