@@ -19,6 +19,7 @@ componentDidUpdate: function(prevProps, prevState){
 renderCarByYear: function(key){
    var year = key;
    var cars = require("./NewArray.jsx");
+   console.log("i am the year input from carform passed to the renderCarByYear " + year);
    function findCarByYear(car){
     return car.year === key;
    }
