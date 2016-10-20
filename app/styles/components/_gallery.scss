@@ -41,6 +41,9 @@
   .img-responsive {
     margin-bottom: 20px;
   }
+  input {
+    width: 33.3%;
+  }
 }
 @media (min-width: 992px){
   .container {
@@ -51,6 +54,9 @@
   }
   .img-responsive {
     margin-bottom: 20px;
+  }
+    input {
+    width: 33.3%;
   }
 }
 
@@ -63,6 +69,9 @@
   }
   .img-responsive {
     margin-bottom: 20px;
+  }
+    input {
+    width: 33.3%;
   }
 }
 
@@ -80,5 +89,19 @@
   }
   .img-responsive {
     margin-bottom: 20px;
+  }
+    input {
+    width: 33.3%;
+  }
+}
+@media (max-width: 300px) {
+  .row {
+    margin-top: 20px;
+  }
+  .img-responsive {
+    margin-bottom: 20px;
+  }
+    input {
+    display: block;
   }
 }
