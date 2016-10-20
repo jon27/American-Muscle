@@ -9,6 +9,7 @@ var NewArray = require('NewArray');
 var Car = require('Car');
 var Gallery = require("Gallery");
 var ModernCars = require('ModernCars');
+var EdmundsForm = require('EdmundsForm');
 
 // Load foundation
 require('style!css!foundation-sites/dist/foundation.min.css');
@@ -24,6 +25,7 @@ ReactDOM.render(
   		<IndexRoute component={ModernCars} />
       <Route path="/gallery" component={Gallery} />
       <Route path="/search" component={Cars} />
+      <Route path="/edmundsForm" component={EdmundsForm} />
   	</Route>
   </Router>,
   document.getElementById('app')

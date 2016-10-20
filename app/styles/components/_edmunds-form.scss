@@ -1,0 +1,25 @@
+.edmundsFormInput {
+  width: 33.3%;
+  padding: 5px;
+}
+
+.button-padding{
+  margin-top: 10px;
+  padding: 5px;
+}
+
+input::-webkit-input-placeholder {
+color: $placeholder-color !important ;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: black !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: black !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: black !important;  
+}

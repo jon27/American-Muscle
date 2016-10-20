@@ -30,7 +30,8 @@ module.exports = {
       NewArray: 'app/components/NewArray.jsx',
       Car: 'app/components/Car.jsx',
       Gallery: 'app/components/Gallery.jsx',
-      ModernCars: 'app/components/ModernCars.jsx'
+      ModernCars: 'app/components/ModernCars.jsx',
+      EdmundsForm: 'app/components/EdmundsForm.jsx'
       
     },
     extensions: ['', '.js', '.jsx']
@@ -44,8 +45,16 @@ module.exports = {
         },
         test: /\.jsx?$/,
         exclude: /(node_modules|bower_components)/
-      }
+      },
+      { test: /\.json$/, loader: 'json-loader' }
     ]
   },
+
+node : {
+  console: 'empty',
+  fs: 'empty',
+  net: 'empty',
+  tls: 'empty'
+},
   devtool: 'cheap-module-eval-source-map'
 };

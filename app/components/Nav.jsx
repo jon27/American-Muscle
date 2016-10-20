@@ -16,6 +16,9 @@ var Nav = React.createClass({
             </li>
             <li>
               <Link to="/search" className="menu-text" activeClassName="active"  activeStyle={{fontWeight: 'bold'}}>Take a look at history</Link>
+            </li>
+            <li>
+              <Link to="/edmundsForm" className="menu-text" activeClassName="active"  activeStyle={{fontWeight: 'bold'}}>Edmunds Search</Link>
             </li>					
           </ul>
 					</div>
