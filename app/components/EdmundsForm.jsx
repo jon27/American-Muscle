@@ -9,9 +9,9 @@ var EdmundsForm = React.createClass({
     var make = this.refs.make.value;
     var model = this.refs.model.value;
     var year = Number(this.refs.year.value);
-    var condition = this.refs.condition.value;
-    if(make !== "" & model !== "" & year !== "" & condition !== ""){
-      this.refs.EdmundsForm.reset;
+
+    if(make !== "" & model !== "" & year !== ""){
+      this.refs.edmundsForm.reset();
 
     }else{
       alert("Please fill out the entire form");
@@ -19,12 +19,13 @@ var EdmundsForm = React.createClass({
 
     $(function(){
       var $cars = $('#cars');
-        var Edmunds_API = 'https://api.edmunds.com/api/vehicle/v2';
-        var Edmunds_API_KEY = "styles?&view=full&fmt=json&api_key=phf96xc8yshx4yupyjvqe83g";
-
+      var Edmunds_API = 'https://api.edmunds.com/api/vehicle/v2';
+      var Edmunds_API_KEY = "styles?&view=full&fmt=json&api_key=phf96xc8yshx4yupyjvqe83g";
+      // Encode Variables to plug into api call
       var encodedMake = encodeURIComponent(make);
       var encodedModel = encodeURIComponent(model);
       var encodedYear = encodeURIComponent(year);
+        // api gets called below
         $.ajax({
           type: 'GET',
           url: `${Edmunds_API}/${encodedMake}/${encodedModel}/${encodedYear}/${Edmunds_API_KEY}`,
@@ -43,6 +44,7 @@ var EdmundsForm = React.createClass({
                 var horsepower = data.styles[0].engine.horsepower;
                 var torque = data.styles[0].engine.torque;
                 var gasType = data.styles[0].engine.type;
+
 
                 // Replacing html with stored variables
                 var replaceMake = document.getElementById('make');
@@ -66,16 +68,18 @@ var EdmundsForm = React.createClass({
   render: function(){
 
 
-    return (
+return (
       <div>
-        <form ref="EdmundsForm" className="border" onSubmit={this.onFormSubmit}>
+        <h1 className="page-title text-center">Search any vehicle</h1>
+        <form ref="edmundsForm" className="border" onSubmit={this.onFormSubmit}>
           <input className="edmundsFormInput" placeholder="Make" isRequired="required" ref="make" />
           <input className="edmundsFormInput" placeholder="Model" isRequired="required" ref="model" />
           <input className="edmundsFormInput" placeholder="Year" isRequired="required" ref="year" />
-          <button className="button-black expanded hollow">Submit</button>
+
+          <button className="button-padding button-black expanded hollow">Submit</button>
         </form>
         <div>
-          <h1 className="text-center page-title"><span id="make"></span> <span id="model"></span></h1>
+          <h2 className="text-center page-title"><span id="make"></span> <span id="model"></span></h2>
           <h3 className="text-center page-title"><span id="horsepower"></span><span id="torque"></span></h3>
           <h3 className="text-center page-title"><span id="cylinder"></span><span id="gasType"></span></h3>
         </div>
