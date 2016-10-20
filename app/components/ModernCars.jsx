@@ -14,8 +14,8 @@ var ModernCars = React.createClass({
           <div className="flex-container red">
           <div className="flex-item-img-hellcat"></div>
           <div className="flex-item-content">
-            <h3>2016 DODGE CHALLENGER SRT HELLCAT</h3>
-            <p>The new kid on the block is also the most formidable. The Challenger Hellcat has quickly made a name for itself as the fastest production muscle car of all time. The Hellcat puts out a whomping 707 horsepower and 650 pound-feet of torque, which allows it to get to 60 miles per hour in around 3.5 seconds on its way to an overall top speed of 199 miles per hour, putting it in a class with other supercars from Ferrari and Lamborghini. The quarter-mile can also be done in a relative snap, as the Hellcat can get it done in a scant 11.2 seconds. Of course, it does burn through gas at a rate of 1.5 gallons per minute.</p>
+            <h3>2016 DODGE CHALLENGER HELLCAT</h3>
+            <p>The Challenger Hellcat has quickly made a name for itself as the fastest production muscle car of all time. The Hellcat puts out a whomping 707 horsepower and 650 pound-feet of torque, which allows it to get to 60 miles per hour in around 3.5 seconds on its way to an overall top speed of 199 miles per hour, putting it in a class with other supercars from Ferrari and Lamborghini.</p>
           </div> 
           </div>
 

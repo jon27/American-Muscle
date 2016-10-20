@@ -10,8 +10,9 @@ body{
   width: 100%;
   left: 0px;
   right: 0px;
-  height: 45%;
+  height: 400px;
   display: flex;
+
 }
 .red {
   background-color: $glory-red;
@@ -43,13 +44,23 @@ color: white;
     height: 100%;
     // margin-right: 5%;
 }
+// .flex-item-content {
+//     width: 55%;
+//     height: 100%;
+//     // margin-right: 5%;
+//     margin-left: 5%;
+//     margin-right: 5%;
+//     margin-top: 5%;
+// }
 .flex-item-content {
-    width: 55%;
-    height: 100%;
+    flex-shrink: 0;
+    flex-basis: 45%;
     // margin-right: 5%;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
+    overflow: hidden;
+
 }
 .div-display {
   padding: 0px;
