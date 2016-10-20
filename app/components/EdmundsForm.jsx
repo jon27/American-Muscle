@@ -72,7 +72,7 @@ var EdmundsForm = React.createClass({
           <input className="edmundsFormInput" placeholder="Make" isRequired="required" ref="make" />
           <input className="edmundsFormInput" placeholder="Model" isRequired="required" ref="model" />
           <input className="edmundsFormInput" placeholder="Year" isRequired="required" ref="year" />
-          <button>Submit</button>
+          <button className="button-black expanded hollow">Submit</button>
         </form>
         <div>
           <h1 className="text-center page-title"><span id="make"></span> <span id="model"></span></h1>
