@@ -31,49 +31,49 @@
   width: 100%
 }
 
-@media (min-width: 1200px){
-.container {
-    width: 1170px;
-}
-  .row {
-    margin-top: 20px;
-  }
-  .img-responsive {
-    margin-bottom: 20px;
-  }
-  input {
-    width: 33.3%;
-  }
-}
-@media (min-width: 992px){
-  .container {
-    width: 970px;
-}
-  .row {
-    margin-top: 20px;
-  }
-  .img-responsive {
-    margin-bottom: 20px;
-  }
-    input {
-    width: 33.3%;
-  }
-}
+// @media screen and(min-width: 1200px){
+// .container {
+//     width: 1170px;
+// }
+//   .row {
+//     margin-top: 20px;
+//   }
+//   .img-responsive {
+//     margin-bottom: 20px;
+//   }
+//   input {
+//     width: 33.3%;
+//   }
+// }
+// @media screen and(min-width: 992px){
+//   .container {
+//     width: 970px;
+// }
+//   .row {
+//     margin-top: 20px;
+//   }
+//   .img-responsive {
+//     margin-bottom: 20px;
+//   }
+//     input {
+//     width: 33.3%;
+//   }
+// }
 
-@media (min-width: 768px){
-  .container {
-    width: 750px;
-}
-  .row {
-    margin-top: 20px;
-  }
-  .img-responsive {
-    margin-bottom: 20px;
-  }
-    input {
-    width: 33.3%;
-  }
-}
+// @media screen and(min-width: 768px){
+//   .container {
+//     width: 750px;
+// }
+//   .row {
+//     margin-top: 20px;
+//   }
+//   .img-responsive {
+//     margin-bottom: 20px;
+//   }
+//     input {
+//     width: 33.3%;
+//   }
+// }
 
 .container {
     padding: 15px;
@@ -83,31 +83,31 @@
 
 }
 
-@media (max-width: 500px) {
-  .row {
-    margin-top: 20px;
-  }
-  .img-responsive {
-    margin-bottom: 20px;
-  }
-    input {
-    width: 33.3%;
-  }
-}
-@media (max-width: 300px) {
-  .row {
-    margin-top: 20px;
-  }
-  .img-responsive {
-    margin-bottom: 20px;
-  }
-    input {
-    display: block;
-  }
-  .flex-item-content {
-  font-size: 0.6rem;
-    h3{
-      font-size: 0.9rem;
-    }
-  }
-}
+// @media screen and(max-width: 500px) {
+//   .row {
+//     margin-top: 20px;
+//   }
+//   .img-responsive {
+//     margin-bottom: 20px;
+//   }
+//     input {
+//     width: 33.3%;
+//   }
+// }
+// @media screen and(max-width: 300px) {
+//   .row {
+//     margin-top: 20px;
+//   }
+//   .img-responsive {
+//     margin-bottom: 20px;
+//   }
+//     input {
+//     display: block;
+//   }
+//   .flex-item-content {
+//   font-size: 0.6rem;
+//     h3{
+//       font-size: 0.9rem;
+//     }
+//   }
+// }
